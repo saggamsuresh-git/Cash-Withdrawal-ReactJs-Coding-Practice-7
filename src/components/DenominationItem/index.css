@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+button {
+  background-color: #585076;
+  border: 2px solid #c4c4c4;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #d4d2db;
+  font-size: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  padding: 40px;
+}
+
+.withdrawal-card {
+  background-color: #150b3e;
+  color: #d4d2db;
+  width: 600px;
+  padding: 40px;
+  /* min-height: 480px; */
+  max-height: 560px;
+  border-radius: 12px;
+  font-family: 'Roboto';
+}
+.profile-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+.profile-pic-letter {
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+  font-size: 20px;
+  margin-right: 40px;
+}
+.name {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.your-balance {
+  font-size: 30px;
+  color: #585076;
+}
+.amount {
+  font-size: 32px;
+  font-weight: 500;
+  color: #d4d2db;
+}
+.in-rupees-text {
+  display: flex;
+  justify-content: flex-end;
+  color: #585076;
+}
+span {
+  color: #585076;
+  font-weight: 500;
+  font-size: 15px;
+}
+.denomination-list {
+  list-style: none;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.withdraw {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .withdrawal-card {
+    max-width: 350px;
+    max-height: 430px;
+  }
+  .bg-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-pic-letter {
+    height: 45px;
+    width: 45px;
+  }
+  .name {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .your-balance {
+    font-size: 18px;
+  }
+  .amount {
+    font-size: 19px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .para {
+    font-size: 14px;
+    color: #585076;
+  }
+}
